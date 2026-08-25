@@ -1,0 +1,82 @@
+img {
+    margin: 5px;
+    vertical-align: top;
+    width: 100px;
+      filter: blur(4px);
+  -webkit-filter: blur(4px);
+  border-radius: 50%;
+}
+
+body {
+    padding-top: 10cap;
+}
+
+header {
+    margin: 50px;
+    color: whitesmoke;
+    position:center;
+    text-align: center;
+}
+
+html {
+    background-color: black;
+    text-align: center;
+    background-repeat: no-repeat;
+    cursor:progress;
+}
+
+figure {
+  display: flex;
+  flex-flow:column;
+  padding: 5px;
+ position: center;
+  margin: auto;
+}
+
+img {
+  max-width: 220px;
+  opacity: 0.5;
+}
+
+figcaption {
+  color: white;
+  font-style: italic;
+  padding: 3px;
+  text-align: center; 
+  max-width: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.inline-block figcaption {
+    float:left;
+}
+
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: black;
+  background-image: url(img/drygrass.jpg);
+  color: yellow;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
